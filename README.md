@@ -1,6 +1,6 @@
 # Exchange Rate Application - ECS Deployment
 
-A Flask application that displays current NGN to USD exchange rates, containerized and deployed to AWS ECS using Terraform and automated with GitHub Actions.
+This project is a pyhton Flask application that displays current NGN to USD exchange rates, containerized and deployed to AWS ECS using Terraform and automated with GitHub Actions.
 
 ## Application Overview
 
