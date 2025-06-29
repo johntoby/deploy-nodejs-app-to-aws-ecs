@@ -109,6 +109,17 @@ Add these secrets to your GitHub repository:
    - `SONAR_TOKEN`: SonarQube authentication token
    - `SONAR_HOST_URL`: SonarQube server URL
 
+
+### Set up Sonar cloud environment
+
+ - For this project, use the sonarcloud free account. 
+ - Go to www.sonarcloud.io to create an account
+ - Sign up with your GitHub account. Link your repisitory. 
+ - Under Account settings, you will see the sonar token. 
+ - Copy it and use it to configure your repository secrets. 
+ - For the Sonar host url, use www.sonarcloud.io 
+
+
 ### Workflow Triggers
 
 The deployment workflow triggers on:
