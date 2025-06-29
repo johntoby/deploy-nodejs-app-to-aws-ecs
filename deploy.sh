@@ -49,4 +49,4 @@ ALB_URL=$(cd terraform && terraform output -raw load_balancer_url)
 
 echo "✅ Deployment completed successfully!"
 echo "🌐 Application URL: $ALB_URL"
-echo "📝 Note: It may take a few minutes for the service to be fully available."
+echo "📝 Note: It may take a few minutes for the service to be fully available. Please be patient"

@@ -190,7 +190,7 @@ resource "aws_ecs_task_definition" "app" {
       
       portMappings = [
         {
-          containerPort = 5000
+          containerPort = 5000      
           hostPort      = 5000
         }
       ]
