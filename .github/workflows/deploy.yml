@@ -50,7 +50,7 @@ jobs:
       run: python -m pytest --verbose || echo "No tests found"
 
     - name: SonarQube Scan
-      uses: sonarqube-quality-gate-action@master
+      uses: SonarSource/sonarqube-scan-action@v5
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
